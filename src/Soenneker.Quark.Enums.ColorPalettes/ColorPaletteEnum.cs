@@ -1,6 +1,6 @@
 using Soenneker.Gen.EnumValues;
 
-namespace Soenneker.Quark.Enums.ColorPalettes;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// An enum for Tailwind color palettes

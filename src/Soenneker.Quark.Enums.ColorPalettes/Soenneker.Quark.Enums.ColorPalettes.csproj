@@ -6,6 +6,7 @@
         <Nullable>enable</Nullable>
         <Platforms>AnyCPU</Platforms>
         <NoWarn>$(NoWarn);1591</NoWarn>
+        <RootNamespace>Soenneker.Quark</RootNamespace>
     </PropertyGroup>
 
     <PropertyGroup>
