@@ -2,7 +2,7 @@
 
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFramework>net10.0</TargetFramework>
+        <TargetFramework>net11.0</TargetFramework>
         <IsAotCompatible>true</IsAotCompatible>
         <EnumValuesInlining>NoInlining</EnumValuesInlining>
         <Nullable>enable</Nullable>
@@ -13,7 +13,7 @@
 
     <PropertyGroup>
         <Description>An enum for Tailwind color palettes</Description>
-        <Version Condition="'$(BUILD_VERSION)' == ''">4.0.0</Version>
+        <Version Condition="'$(BUILD_VERSION)' == ''">11.0.0</Version>
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.Quark.Enums.ColorPalettes</AssemblyName>
         <PackageId>Soenneker.Quark.Enums.ColorPalettes</PackageId>
